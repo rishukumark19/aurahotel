@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="The Aura Rooms &amp; Banquet — A warm stay and memorable occasions in Dhanbad, Jharkhand. Comfortable rooms and an elegant banquet hall for weddings, receptions, and celebrations." />
+  <meta name="keywords" content="The Aura hotel Dhanbad, banquet hall Dhanbad, rooms Dhanbad, wedding venue Jharkhand, Saraidhela hotel, Shanti Colony" />
+  <meta property="og:title" content="The Aura Rooms &amp; Banquet — Dhanbad" />
+  <meta property="og:description" content="A warm stay. Memorable occasions. Boutique hospitality in Dhanbad, Jharkhand." />
+  <meta property="og:type" content="website" />
+  <title>The Aura Rooms &amp; Banquet — Dhanbad, Jharkhand</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700&family=Playfair+Display:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- HEADER -->
+  <header class="site-header" id="site-header" role="banner">
+    <div class="header-inner container">
+      <a href="#" class="brand-mark" aria-label="The Aura Rooms &amp; Banquet — Return to top">
+        <span class="brand-name">The Aura</span>
+        <span class="brand-sub">Rooms &amp; Banquet</span>
+      </a>
+
+      <nav class="primary-nav" id="primary-nav" aria-label="Primary navigation">
+        <a href="#" class="nav-link nav-link--active" aria-current="page">Home</a>
+        <a href="#rooms" class="nav-link">Rooms</a>
+        <a href="#banquet" class="nav-link">Banquet</a>
+        <a href="#gallery" class="nav-link">Gallery</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#contact" class="nav-link">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="btn btn--primary btn--sm" onclick="openEnquiryModal('General Enquiry')" type="button" id="header-enquiry-btn">
+          Make an Enquiry
+        </button>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="primary-nav" id="mobile-menu-btn" type="button">
+          <span class="material-symbols-outlined" aria-hidden="true">menu</span>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main id="main-content">
+
+    <!-- HERO -->
+    <section class="hero" aria-label="Welcome to The Aura Rooms &amp; Banquet">
+      <div class="hero__bg" aria-hidden="true">
+        <img
+          src="images/final-cta-bg.jpg"
+          alt="Elegant dark background with warm lighting"
+          fetchpriority="high"
+          loading="eager"
+        />
+        <div class="hero__scrim" aria-hidden="true"></div>
+      </div>
+
+      <div class="hero__body container">
+        <span class="overline overline--gold overline--spaced reveal stagger-1">Welcome to</span>
+        <h1 class="hero__title reveal stagger-2">THE AURA</h1>
+        <div class="hero__divider reveal stagger-3" aria-hidden="true">
+          <span class="divider-line"></span>
+          <span class="overline overline--gold">Rooms &amp; Banquet</span>
+          <span class="divider-line"></span>
+        </div>
+        <p class="hero__tagline reveal stagger-4"><em>"A warm stay. Memorable occasions."</em></p>
+        <div class="hero__ctas reveal stagger-4">
+          <a href="#rooms" class="btn btn--gold">Explore Rooms</a>
+          <a href="#banquet" class="btn btn--primary">Discover Banquet</a>
+        </div>
+      </div>
+
+      <div class="hero__metabar">
+        <div class="container hero__metabar-inner">
+          <span class="hero__location">
+            <span class="material-symbols-outlined" aria-hidden="true">pin_drop</span>
+            Saraidhela, Dhanbad, Jharkhand
+          </span>
+          <a href="#about" class="hero__scroll-hint">
+            <span>Scroll to explore</span>
+            <span class="material-symbols-outlined bounce" aria-hidden="true">expand_more</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- INTRODUCTION -->
+    <section class="intro section" id="about">
+      <div class="container">
+        <div class="intro__grid">
+
+          <div class="intro__text">
+            <span class="overline text-gold">The Aura Experience</span>
+            <h2 class="display-md reveal stagger-1">A stay with an occasion in mind.</h2>
+            <p class="body-lg reveal stagger-2">
+              Welcome to <strong>The Aura Rooms &amp; Banquet</strong> — a comfortable destination for stays, gatherings, and celebrations. Designed to offer a warm atmosphere, thoughtful spaces, and a convenient experience for every guest.
+            </p>
+            <blockquote class="intro__quote reveal stagger-3">
+              <p>"Crafted for travelers seeking tranquility and hosts curating memorable life milestones."</p>
+            </blockquote>
+            <div class="intro__actions reveal stagger-4">
+              <button class="btn btn--primary" onclick="openEnquiryModal('General Enquiry')" type="button">
+                Make an Enquiry
+              </button>
+              <a href="#rooms" class="btn btn--secondary">Discover The Aura</a>
+            </div>
+          </div>
+
+          <div class="intro__image-wrap">
+            <div class="image-frame image-frame--4-3 image-frame--hover">
+              <img
+                src="images/lobby.jpg"
+                alt="The Aura reception lobby and concierge desk"
+                loading="lazy"
+              />
+              <div class="image-caption">
+                <span class="material-symbols-outlined" aria-hidden="true">concierge</span>
+                <span class="overline">Main Lobby &amp; Concierge</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ROOMS & SUITES -->
+    <section class="rooms section section--alt" id="rooms">
+      <div class="container">
+        <div class="section-header section-header--split">
+          <div>
+            <span class="overline text-gold">Bespoke Living</span>
+            <h2 class="headline-lg">Stay at The Aura</h2>
+            <p class="body-md text-muted">Comfortable spaces designed for a relaxed stay. Thoughtful touches, acoustic quietude, and refined residential charm.</p>
+          </div>
+          <button class="btn btn--primary" onclick="openEnquiryModal('Room Enquiry')" type="button">
+            Make an Enquiry
+          </button>
+        </div>
+
+        <div class="rooms-grid">
+
+          <article class="room-card reveal stagger-1" aria-label="Deluxe Room">
+            <div class="room-card__image image-frame image-frame--4-3 image-frame--hover">
+              <img
+                src="images/room-deluxe.jpg"
+                alt="Deluxe Room at The Aura — cosy queen bedroom with warm evening light"
+                loading="lazy"
+              />
+            </div>
+            <div class="room-card__body">
+              <span class="overline text-gold">Deluxe Room</span>
+              <h3 class="room-card__title">Deluxe Room</h3>
+              <p class="body-sm text-muted">A comfortable room with refined natural accents, plush bedding, and a tranquil outlook — ideal for business or leisure stays.</p>
+              <div class="room-card__footer">
+                <span class="room-card__detail-note">Details to be confirmed</span>
+                <button class="btn btn--primary btn--sm" onclick="openEnquiryModal('Deluxe Room Enquiry')" type="button">Enquire</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="room-card reveal stagger-2" aria-label="Executive Suite">
+            <div class="room-card__image image-frame image-frame--4-3 image-frame--hover">
+              <img
+                src="images/room-executive-suite.jpg"
+                alt="Executive Suite at The Aura — warm king bedroom with city view"
+                loading="lazy"
+              />
+            </div>
+            <div class="room-card__body">
+              <span class="overline text-gold">Executive Suite</span>
+              <h3 class="room-card__title">Executive Suite</h3>
+              <p class="body-sm text-muted">An expansive layout with a sitting area and refined interior detailing — designed for a longer, more immersive stay.</p>
+              <div class="room-card__footer">
+                <span class="room-card__detail-note">Details to be confirmed</span>
+                <button class="btn btn--primary btn--sm" onclick="openEnquiryModal('Executive Suite Enquiry')" type="button">Enquire</button>
+              </div>
+            </div>
+          </article>
+
+          <article class="room-card reveal stagger-3" aria-label="Family Suite">
+            <div class="room-card__image image-frame image-frame--4-3 image-frame--hover">
+              <img
+                src="images/room-family-suite.jpg"
+                alt="Family Suite at The Aura — spacious room with twin beds and garden view"
+                loading="lazy"
+              />
+            </div>
+            <div class="room-card__body">
+              <span class="overline text-gold">Family Suite</span>
+              <h3 class="room-card__title">Family Suite</h3>
+              <p class="body-sm text-muted">A spacious suite well-suited for families and wedding entourages, with interconnected spaces and dedicated care.</p>
+              <div class="room-card__footer">
+                <span class="room-card__detail-note">Details to be confirmed</span>
+                <button class="btn btn--primary btn--sm" onclick="openEnquiryModal('Family Suite Enquiry')" type="button">Enquire</button>
+              </div>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- THE BANQUET -->
+    <section class="banquet section section--dark" id="banquet" aria-label="Banquet and Events at The Aura">
+      <div class="container">
+
+        <div class="section-header section-header--center">
+          <span class="overline overline--gold">Signature Banquet &amp; Events</span>
+          <h2 class="display-md text-light">Celebrate at The Aura</h2>
+          <p class="body-lg text-light-muted">From intimate gatherings to memorable celebrations, our grand banquet hall is thoughtfully orchestrated to bring people together in warmth and grandeur.</p>
+        </div>
+
+        <div class="banquet__hero-image image-frame image-frame--16-9 image-frame--hover">
+          <img
+            src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIDgU6oXrfY9Pz18IgVenbRcaPZ0YKW7UeNgPBYNLGH5eA2_WLXUYj4JT_fLHxDFPM0buF3zIcobrhq874QIW-CFgmBM8-DwK1QGIcZM74bCXy6qJTqo2r6U1Yd3vF2v6mpJfH5wvWq7wv3GuPzi4D7QLmWhlVb-uA32hyBbPTOtnsN-BZHOPSURv9vTL9ELc0V5zBKVt5lX_tCAxrTK7aUBovxswkRqao1WKdADj5yDt8d2rrwvmdPQ"
+            alt="The Aura Grand Banquet Hall set for a gala celebration"
+            loading="lazy"
+          />
+          <div class="banquet__image-caption" aria-label="Architectural Grandeur">
+            <span class="overline overline--gold">Architectural Grandeur</span>
+            <p class="body-sm text-light-muted">Coffered ceilings, crystal luminaires, and expansive hardwood staging.</p>
+          </div>
+        </div>
+
+        <div class="occasion-chips" aria-label="Suitable occasions">
+          <span class="chip chip--dark">Weddings</span>
+          <span class="chip chip--dark">Receptions</span>
+          <span class="chip chip--dark">Birthday Celebrations</span>
+          <span class="chip chip--dark">Corporate Events</span>
+          <span class="chip chip--dark">Family Gatherings</span>
+          <span class="chip chip--dark">Private Dinners</span>
+        </div>
+
+        <div class="banquet__features">
+          <div class="feature-card feature-card--dark reveal stagger-1">
+            <span class="material-symbols-outlined feature-icon" aria-hidden="true">groups</span>
+            <h3 class="feature-card__title">Flexible Capacity</h3>
+            <p class="feature-card__body">Adaptable seating from intimate gatherings to large-scale gala events.</p>
+          </div>
+          <div class="feature-card feature-card--dark reveal stagger-2">
+            <span class="material-symbols-outlined feature-icon" aria-hidden="true">restaurant</span>
+            <h3 class="feature-card__title">Catering &amp; Cuisine</h3>
+            <p class="feature-card__body">Curated multi-cuisine menus, live counter theatrics, and bespoke confectionery.</p>
+          </div>
+          <div class="feature-card feature-card--dark reveal stagger-3">
+            <span class="material-symbols-outlined feature-icon" aria-hidden="true">celebration</span>
+            <h3 class="feature-card__title">Bespoke Occasions</h3>
+            <p class="feature-card__body">Tailored for weddings, receptions, corporate gatherings, anniversaries, and more.</p>
+          </div>
+          <div class="feature-card feature-card--dark reveal stagger-4">
+            <span class="material-symbols-outlined feature-icon" aria-hidden="true">surround_sound</span>
+            <h3 class="feature-card__title">Acoustics &amp; Light</h3>
+            <p class="feature-card__body">Integrated AV systems, ambient lighting rigs, and a dedicated technical booth.</p>
+          </div>
+        </div>
+
+        </div>
+
+        <div class="banquet__ctas">
+          <button class="btn btn--primary" onclick="openEnquiryModal('Banquet Enquiry')" type="button">
+            Enquire Now
+          </button>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- HOSPITALITY PILLARS -->
+    <section class="pillars section" aria-label="Hospitality pillars">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="overline text-gold">Hospitality Pillars</span>
+          <h2 class="headline-lg">Made for your moments.</h2>
+          <p class="body-md text-muted">From restful solitude to unconstrained festivity, every space is purpose-built with care.</p>
+        </div>
+
+        <div class="pillars-grid">
+          <div class="pillar-card reveal stagger-1">
+            <span class="pillar-card__num" aria-hidden="true">01</span>
+            <span class="overline text-gold">Stay</span>
+            <h3 class="headline-sm">A comfortable place to rest.</h3>
+            <p class="body-sm text-muted">Restful bedding, quiet acoustic design, and thoughtful organic bath selections for peaceful restoration.</p>
+            <div class="pillar-card__footer">
+              <span class="body-sm text-muted">Room Sanctuary</span>
+              <span class="material-symbols-outlined" aria-hidden="true">bed</span>
+            </div>
+          </div>
+          <div class="pillar-card reveal stagger-2">
+            <span class="pillar-card__num" aria-hidden="true">02</span>
+            <span class="overline text-gold">Celebrate</span>
+            <h3 class="headline-sm">A space for special occasions.</h3>
+            <p class="body-sm text-muted">Expansive celebration halls with dedicated event leads, custom aesthetics, and memorable culinary experiences.</p>
+            <div class="pillar-card__footer">
+              <span class="body-sm text-muted">Grand Hall</span>
+              <span class="material-symbols-outlined" aria-hidden="true">local_bar</span>
+            </div>
+          </div>
+          <div class="pillar-card reveal stagger-3">
+            <span class="pillar-card__num" aria-hidden="true">03</span>
+            <span class="overline text-gold">Gather</span>
+            <h3 class="headline-sm">Bring people together.</h3>
+            <p class="body-sm text-muted">Comfortable lounge niches, executive conference setups, and festive private dining settings.</p>
+            <div class="pillar-card__footer">
+              <span class="body-sm text-muted">Social Lounge</span>
+              <span class="material-symbols-outlined" aria-hidden="true">forum</span>
+            </div>
+          </div>
+          <div class="pillar-card reveal stagger-4">
+            <span class="pillar-card__num" aria-hidden="true">04</span>
+            <span class="overline text-gold">Host</span>
+            <h3 class="headline-sm">Create memorable events.</h3>
+            <p class="body-sm text-muted">Comprehensive coordination, tailored vendor support, audiovisual precision, and effortless guest arrivals.</p>
+            <div class="pillar-card__footer">
+              <span class="body-sm text-muted">Event Management</span>
+              <span class="material-symbols-outlined" aria-hidden="true">supervised_user_circle</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDITORIAL GALLERY -->
+    <section class="gallery section section--alt" id="gallery" aria-label="Photo gallery">
+      <div class="container">
+        <div class="section-header section-header--split">
+          <div>
+            <span class="overline text-gold">Visual Anthology</span>
+            <h2 class="headline-lg">Through the lens</h2>
+          </div>
+          <nav class="gallery-filters" aria-label="Filter gallery by category" id="galleryFilterNav" role="tablist">
+            <button class="gallery-filter gallery-filter--active" data-filter="all" role="tab" aria-selected="true" type="button">All</button>
+            <button class="gallery-filter" data-filter="rooms" role="tab" aria-selected="false" type="button">Rooms</button>
+            <button class="gallery-filter" data-filter="banquet" role="tab" aria-selected="false" type="button">Banquet</button>
+            <button class="gallery-filter" data-filter="lounge" role="tab" aria-selected="false" type="button">Lounge</button>
+            <button class="gallery-filter" data-filter="exterior" role="tab" aria-selected="false" type="button">Exterior</button>
+          </nav>
+        </div>
+
+        <div class="gallery-grid" id="galleryGrid" role="list" aria-label="Gallery images">
+
+          <div class="gallery-item gallery-item--hero reveal stagger-1" data-category="exterior" role="listitem">
+            <div class="image-frame image-frame--fill image-frame--hover">
+              <img src="images/gallery_exterior.jpg" alt="The Aura Hotel illuminated architectural facade at dusk" loading="lazy" />
+              <div class="gallery-item__overlay" aria-hidden="true">
+                <span class="overline overline--gold">Exterior &amp; Entrance</span>
+                <p class="headline-sm">Illuminated Facade at Dusk</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item--portrait reveal stagger-2" data-category="banquet" role="listitem">
+            <div class="image-frame image-frame--fill image-frame--hover">
+              <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIDgU6oXrfY9Pz18IgVenbRcaPZ0YKW7UeNgPBYNLGH5eA2_WLXUYj4JT_fLHxDFPM0buF3zIcobrhq874QIW-CFgmBM8-DwK1QGIcZM74bCXy6qJTqo2r6U1Yd3vF2v6mpJfH5wvWq7wv3GuPzi4D7QLmWhlVb-uA32hyBbPTOtnsN-BZHOPSURv9vTL9ELc0V5zBKVt5lX_tCAxrTK7aUBovxswkRqao1WKdADj5yDt8d2rrwvmdPQ" alt="The Aura Grand Banquet Hall gala setup" loading="lazy" />
+              <div class="gallery-item__overlay" aria-hidden="true">
+                <span class="overline overline--gold">The Banquet Realm</span>
+                <p class="headline-sm">Grand Gala Setting</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item--landscape reveal stagger-3" data-category="rooms" role="listitem">
+            <div class="image-frame image-frame--fill image-frame--hover">
+              <img src="images/room-deluxe.jpg" alt="The Aura deluxe bedroom warm interior aesthetic" loading="lazy" />
+              <div class="gallery-item__overlay" aria-hidden="true">
+                <span class="overline overline--gold">Sanctuary Suites</span>
+                <p class="headline-sm">Deluxe Room Interior</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="gallery-item gallery-item--wide reveal stagger-4" data-category="lounge" role="listitem">
+            <div class="image-frame image-frame--fill image-frame--hover">
+              <img src="images/lobby.jpg" alt="The Aura reception desk and warm welcoming lounge" loading="lazy" />
+              <div class="gallery-item__overlay" aria-hidden="true">
+                <span class="overline overline--gold">Arrivals</span>
+                <p class="headline-sm">Welcome Lounge &amp; Concierge</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- WHY THE AURA -->
+    <section class="why-aura section" aria-label="Why choose The Aura">
+      <div class="container">
+        <div class="why-aura__grid">
+
+          <div class="why-aura__intro">
+            <span class="overline text-gold">Uncompromising Standards</span>
+            <h2 class="headline-lg">Everything you need, in one place.</h2>
+            <p class="body-md text-muted">Whether arriving for a business trip, a weekend respite, or orchestrating a wedding ceremony, The Aura balances comfort, service, and accessibility.</p>
+            <a href="#contact" class="btn-text">
+              <span>Get in Touch</span>
+              <span class="material-symbols-outlined" aria-hidden="true">arrow_forward</span>
+            </a>
+          </div>
+
+          <div class="why-aura__features">
+            <div class="feature-card feature-card--light reveal stagger-1">
+              <span class="material-symbols-outlined feature-icon text-gold" aria-hidden="true">bed</span>
+              <h3 class="feature-card__title">Comfortable Rooms</h3>
+              <p class="feature-card__body">Quality linens, temperature control, and thoughtful amenities ensuring a restful stay.</p>
+            </div>
+            <div class="feature-card feature-card--light reveal stagger-2">
+              <span class="material-symbols-outlined feature-icon text-gold" aria-hidden="true">theater_comedy</span>
+              <h3 class="feature-card__title">Banquet &amp; Events</h3>
+              <p class="feature-card__body">Grand high-ceilinged hall fitted with professional acoustics, ambient lighting, and stage setups.</p>
+            </div>
+            <div class="feature-card feature-card--light reveal stagger-3">
+              <span class="material-symbols-outlined feature-icon text-gold" aria-hidden="true">handshake</span>
+              <h3 class="feature-card__title">Warm Hospitality</h3>
+              <p class="feature-card__body">Personalized guest reception, in-room dining, luggage assistance, and an attentive concierge team.</p>
+            </div>
+            <div class="feature-card feature-card--light reveal stagger-4">
+              <span class="material-symbols-outlined feature-icon text-gold" aria-hidden="true">location_city</span>
+              <h3 class="feature-card__title">Convenient Location</h3>
+              <p class="feature-card__body">Located in Saraidhela, Shanti Colony — near Guru Kirpa Showroom, with access to major transit routes in Dhanbad.</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- LOCATION & CONTACT -->
+    <section class="contact section section--alt" id="contact" aria-label="Location and contact details">
+      <div class="container">
+        <div class="section-header section-header--center">
+          <span class="overline text-gold">Arrival &amp; Enquiries</span>
+          <h2 class="headline-lg">Find Your Way to The Aura</h2>
+          <p class="body-md text-muted">Located in Saraidhela, Dhanbad, with convenient access to the city's key landmarks and transit corridors.</p>
+        </div>
+
+        <div class="contact__grid">
+
+          <div class="contact-card">
+            <div class="contact-card__address">
+              <span class="overline text-gold">Our Location</span>
+              <h3 class="headline-sm">The Aura Rooms &amp; Banquet</h3>
+              <address class="body-sm text-muted" style="font-style: normal;">
+                Near Guru Kirpa Showroom, Shanti Colony,<br />
+                Saraidhela, Dhanbad, Jharkhand 826007
+              </address>
+            </div>
+
+            <div class="contact-card__details">
+              <div class="contact-detail">
+                <span class="material-symbols-outlined text-gold" aria-hidden="true">call</span>
+                <div>
+                  <span class="label-bold">Reservations &amp; Front Desk</span>
+                  <span class="body-sm text-muted">Contact details to be confirmed</span>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <span class="material-symbols-outlined text-gold" aria-hidden="true">chat</span>
+                <div>
+                  <span class="label-bold">WhatsApp Concierge</span>
+                  <span class="body-sm text-muted">Contact details to be confirmed</span>
+                </div>
+              </div>
+              <div class="contact-detail">
+                <span class="material-symbols-outlined text-gold" aria-hidden="true">mail</span>
+                <div>
+                  <span class="label-bold">Direct Enquiries</span>
+                  <span class="body-sm text-muted">Contact details to be confirmed</span>
+                </div>
+              </div>
+            </div>
+
+            <button class="btn btn--primary btn--full" onclick="openEnquiryModal('Location Enquiry')" type="button">
+              Make an Enquiry
+            </button>
+          </div>
+
+          <div class="map-card">
+            <div class="map-card__inner">
+              <div class="map-card__pin-icon" aria-hidden="true">
+                <span class="material-symbols-outlined">location_on</span>
+              </div>
+              <h4 class="headline-sm">The Aura Rooms &amp; Banquet</h4>
+              <address class="body-sm text-muted" style="font-style:normal;">
+                Near Guru Kirpa Showroom,<br />
+                Shanti Colony, Saraidhela,<br />
+                Dhanbad, Jharkhand 826007
+              </address>
+              <a
+                href="https://maps.app.goo.gl/zHfSE6TZW3eYvsfT8"
+                class="btn btn--secondary"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Open The Aura Rooms &amp; Banquet in Google Maps"
+              >
+                <span class="material-symbols-outlined" aria-hidden="true">map</span>
+                Open in Google Maps
+              </a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- FINAL CTA -->
+    <section class="final-cta section section--dark" aria-label="Begin your stay or enquire about events">
+      <div class="final-cta__bg" aria-hidden="true">
+        <img
+          src="images/final-cta-bg.jpg"
+          alt=""
+          loading="lazy"
+        />
+        <div class="final-cta__scrim" aria-hidden="true"></div>
+      </div>
+      <div class="container final-cta__body">
+        <span class="overline overline--gold overline--spaced">Begin The Journey</span>
+        <h2 class="display-md text-light">Your stay starts here.</h2>
+        <p class="body-lg text-light-muted">
+          Tell us about your stay or event and the hotel team will get back to you.
+        </p>
+        <div class="final-cta__actions">
+          <button class="btn btn--primary" onclick="openEnquiryModal('Stay Enquiry')" type="button">Make an Enquiry</button>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="container">
+      <div class="footer__grid">
+
+        <div class="footer__brand">
+          <span class="footer__brand-name">THE AURA</span>
+          <p class="body-lg text-light-muted footer__tagline"><em>"THE AURA — Rooms &amp; Banquet. A warm stay. Memorable occasions."</em></p>
+          <p class="body-sm footer__brand-desc">Crafted for quiet sophistication, curated stays, and timeless celebrations. Situated in Saraidhela, Dhanbad, we offer comfortable rooms and a beautifully composed banquet hall.</p>
+        </div>
+
+        <div class="footer__nav-col">
+          <h2 class="footer__col-title">Navigation</h2>
+          <nav aria-label="Footer navigation">
+            <a href="#" class="footer__nav-link">Home</a>
+            <a href="#rooms" class="footer__nav-link">Rooms &amp; Suites</a>
+            <a href="#banquet" class="footer__nav-link">The Banquet</a>
+            <a href="#gallery" class="footer__nav-link">Visual Gallery</a>
+            <a href="#about" class="footer__nav-link">About The Aura</a>
+            <a href="#contact" class="footer__nav-link">Contact &amp; Location</a>
+          </nav>
+        </div>
+
+        <div class="footer__contact-col">
+          <h2 class="footer__col-title">Location</h2>
+          <div class="footer__contact-items">
+            <p class="footer__contact-item">
+              <span class="material-symbols-outlined" aria-hidden="true">location_on</span>
+              <span>Near Guru Kirpa Showroom, Shanti Colony, Saraidhela, Dhanbad, Jharkhand 826007</span>
+            </p>
+            <p class="footer__contact-item">
+              <span class="material-symbols-outlined" aria-hidden="true">call</span>
+              <span>Contact details to be confirmed</span>
+            </p>
+            <p class="footer__contact-item">
+              <span class="material-symbols-outlined" aria-hidden="true">mail</span>
+              <span>Contact details to be confirmed</span>
+            </p>
+          </div>
+        </div>
+
+        <div class="footer__social-col">
+          <h2 class="footer__col-title">Stay Connected</h2>
+          <div class="footer__social-links">
+            <a href="#" class="footer__social-link" aria-label="Follow The Aura on Instagram">
+              <span class="material-symbols-outlined" aria-hidden="true">photo_camera</span>
+              <span>Instagram</span>
+            </a>
+            <a href="#" class="footer__social-link" aria-label="Follow The Aura on Facebook">
+              <span class="material-symbols-outlined" aria-hidden="true">public</span>
+              <span>Facebook</span>
+            </a>
+          </div>
+          <div style="margin-top: 1.5rem;">
+            <a
+              href="https://maps.app.goo.gl/zHfSE6TZW3eYvsfT8"
+              class="btn btn--secondary btn--sm"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="View The Aura on Google Maps"
+            >
+              <span class="material-symbols-outlined" aria-hidden="true">map</span>
+              View on Maps
+            </a>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="footer__bottom">
+        <div class="footer__bottom-left">
+          <span>&copy; 2026 The Aura Rooms &amp; Banquet. All rights reserved.</span>
+          <span class="footer__sep" aria-hidden="true">|</span>
+          <a href="#" class="footer__legal-link">Privacy Policy</a>
+        </div>
+        <div class="footer__disclaimer">
+          Showcase &amp; enquiry website. Specifications and contact details will be confirmed by the hotel team.
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ENQUIRY MODAL -->
+  <div
+    class="modal-backdrop"
+    id="enquiryModal"
+    role="dialog"
+    aria-modal="true"
+    aria-hidden="true"
+    aria-labelledby="modalHeading"
+    aria-describedby="modalDescription"
+    tabindex="-1"
+  >
+    <div class="modal" id="enquiryModalContent" role="document">
+
+      <div class="modal__header">
+        <div>
+          <span class="overline text-gold">Direct Enquiry</span>
+          <h2 class="headline-sm" id="modalHeading">Make an Enquiry</h2>
+          <p class="body-sm text-muted" id="modalDescription">Tell us about your stay or event and the hotel team can get back to you.</p>
+        </div>
+        <button class="modal__close" onclick="closeEnquiryModal()" aria-label="Close enquiry form" type="button">
+          <span class="material-symbols-outlined" aria-hidden="true">close</span>
+        </button>
+      </div>
+
+      <form class="modal__form" id="enquiryForm" onsubmit="handleEnquirySubmit(event)" novalidate>
+
+        <fieldset class="form-fieldset">
+          <legend class="form-label">Enquiry Type</legend>
+          <div class="radio-group">
+            <label class="radio-option">
+              <input class="radio-option__input" name="enquiryType" type="radio" value="Room Stay" checked />
+              <span class="radio-option__label">Rooms &amp; Suites</span>
+            </label>
+            <label class="radio-option">
+              <input class="radio-option__input" name="enquiryType" type="radio" value="Banquet / Event" />
+              <span class="radio-option__label">Banquet / Event</span>
+            </label>
+          </div>
+        </fieldset>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="guestName">Your Name <span aria-label="required">*</span></label>
+            <input class="form-input" id="guestName" name="guestName" type="text" required autocomplete="name" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="guestPhone">Phone / WhatsApp <span aria-label="required">*</span></label>
+            <input class="form-input" id="guestPhone" name="guestPhone" type="tel" required autocomplete="tel" />
+          </div>
+        </div>
+
+        <div class="form-row">
+          <div class="form-group">
+            <label class="form-label" for="preferredDate">Preferred Date</label>
+            <input class="form-input" id="preferredDate" name="preferredDate" type="date" />
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="guestCount">Approx. Guests</label>
+            <select class="form-input" id="guestCount" name="guestCount">
+              <option value="1-2">1 – 2 Guests (Rooms)</option>
+              <option value="3-5">3 – 5 Guests (Family)</option>
+              <option value="50-150">50 – 150 (Event)</option>
+              <option value="150-300">150 – 300 (Banquet)</option>
+              <option value="300+">300+ (Grand Event)</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="enquiryNotes">Message / Notes</label>
+          <textarea class="form-input form-textarea" id="enquiryNotes" name="enquiryNotes" rows="3"></textarea>
+        </div>
+
+        <div class="modal__actions">
+          <button class="btn btn--gold btn--full" type="submit" id="submitEnquiryBtn">
+            Submit Enquiry
+          </button>
+        </div>
+
+      </form>
+
+      <div class="modal__success hidden" id="enquirySuccess" role="status" aria-live="polite">
+        <div class="success-icon" aria-hidden="true">
+          <span class="material-symbols-outlined">check_circle</span>
+        </div>
+        <h3 class="headline-sm">Enquiry Submitted</h3>
+        <p class="body-sm text-muted">Thank you. The hotel team will get back to you promptly.</p>
+        <button class="btn btn--secondary" onclick="closeEnquiryModal()" type="button">Close</button>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
